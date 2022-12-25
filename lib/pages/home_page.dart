@@ -1,5 +1,7 @@
+import 'package:catalog_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
+// ignore: use_key_in_widget_constructors
 class HomePage extends StatelessWidget {
   final int days = 30;
   final String name = "codepur";
@@ -7,6 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
+        // ignore: prefer_const_constructors
         title: Text("catalog App"),
       ) ,
       body: Center(
@@ -14,7 +17,7 @@ class HomePage extends StatelessWidget {
           child: Text("welcome to $days day of flutter $name"),
         ),
       ),
-      drawer: Drawer(),
+      drawer:MyDrawer(),
     );
   }
 }

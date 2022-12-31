@@ -6,7 +6,7 @@ class CatalogModel {
       desc: "Apple Iphone 12th generation",
       price: 999,
       color: "#33505a",
-      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-01.jpg"
+      image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000"
   )
 ];
 

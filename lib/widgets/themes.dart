@@ -7,15 +7,15 @@ class MyTheme {
 
         fontFamily: GoogleFonts.poppins().fontFamily,
 
-        // appBarTheme: AppBarTheme(
+        appBarTheme: AppBarTheme(
 
-        //color: Colors.white,
-        // elevation: 0.0,
-        //iconTheme: IconThemeData(color: Colors.white),
-        // toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-        // titleTextStyle: Theme.of(context).textTheme.headline6,
-        // )
-        //primaryTextTheme: GoogleFonts.latoTextTheme(),
+        color: Colors.white,
+        elevation: 0.0,
+        iconTheme: IconThemeData(color: Colors.black),
+        toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
+        titleTextStyle: Theme.of(context).textTheme.headline6,
+        ),
+        primaryTextTheme: GoogleFonts.latoTextTheme(),
       );
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
